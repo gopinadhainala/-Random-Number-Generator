@@ -1,0 +1,67 @@
+.bg-contianer {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/random-no-generator-bg.png');
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.random-card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 16px;
+  height: 400px;
+  width: 80%;
+  padding: 36px;
+  box-shadow: 0px 4px 16px 0px #eaebed;
+  font-family: 'roboto';
+  border: 2px solid #e4ebf3;
+}
+.header {
+  text-align: center;
+  color: #0b69ff;
+  font-size: 20px;
+  font-weight: 700;
+}
+.paragraph-text {
+  font-size: 14px;
+  text-align: center;
+}
+.button-styling {
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 500;
+  background-color: #0b69ff;
+  padding: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin-top: 14px;
+}
+.span-element-styling {
+  font-size: 40px;
+  color: #0b69ff;
+  font-weight: bold;
+  margin-top: 25px;
+}
+@media screen and (min-width: 768px) {
+  .random-card-container {
+    width: 35%;
+    max-width: 450px;
+  }
+  .header {
+    font-size: 25px;
+  }
+  .paragraph-text {
+    font-size: 18px;
+  }
+  .span-element-styling {
+    font-size: 48px;
+  }
+}
